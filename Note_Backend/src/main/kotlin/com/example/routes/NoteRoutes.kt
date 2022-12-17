@@ -1,5 +1,6 @@
 package com.example.routes
 
+import com.example.model.Note
 import com.example.services.NoteService
 import io.ktor.server.application.*
 import io.ktor.server.request.*
@@ -23,13 +24,16 @@ fun Route.notes() {
         }
 
         put {
-            if (noteService.update(call.receive()))
-                call.respond(call.receive())
+            val note = call.receive<Note>()
+            if (noteService.update(note))
+                call.respond(note)
         }
 
         delete {
-            if (noteService.delete(call.receive()))
-                call.respond(call.receive())
+            val note = call.receive<Note>()
+            if (noteService.delete(note)) {
+                call.respond(note)
+            }
         }
     }
 

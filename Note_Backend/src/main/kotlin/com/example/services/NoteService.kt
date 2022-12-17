@@ -18,6 +18,7 @@ class NoteService {
         val insertStatement = Notes.insert {
             it[title] = note.title
             it[description] = note.description
+            it[time] = note.time
             it[color] = note.color
         }
 
@@ -28,6 +29,7 @@ class NoteService {
         Notes.update({ Notes.id eq note.id }) {
             it[title] = note.title
             it[description] = note.description
+            it[time] = note.time
             it[color] = note.color
         } > 0
     }
@@ -40,6 +42,7 @@ class NoteService {
         id = row[Notes.id],
         title = row[Notes.title],
         description = row[Notes.description],
+        time = row[Notes.time],
         color = row[Notes.color]
     )
 }

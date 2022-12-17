@@ -8,6 +8,7 @@ data class Note(
     val id: Int = -1,
     val title: String,
     val description: String,
+    val time: String,
     val color: Int
 )
 
@@ -15,6 +16,7 @@ object Notes : Table() {
     val id = integer("id").autoIncrement()
     val title = varchar("title", 128)
     val description = varchar("description", 1024)
+    val time = varchar("time", 128)
     val color = integer("color")
 
     override val primaryKey = PrimaryKey(id)

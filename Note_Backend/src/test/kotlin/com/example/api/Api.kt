@@ -5,7 +5,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.jackson.JacksonConverterFactory
 
 object Api {
-    const val BASE_URL = "http://127.0.0.1:8080/"
+    const val BASE_URL = "http://127.0.0.1:7000/"
 
     private val retrofit = Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(
         JacksonConverterFactory.create(
