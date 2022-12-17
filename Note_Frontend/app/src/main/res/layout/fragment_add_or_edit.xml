@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AddOrEditFragment">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        >
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_back"
+            android:paddingStart="20dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_done"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="20dp"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:padding="20dp"
+        android:hint="Enter title"
+        android:layout_marginStart="10dp"
+        android:background="@color/white"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+
+        />
+
+    <EditText
+        android:id="@+id/etTitleDescription"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:padding="20dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/white"
+        android:hint="Enter description"
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout>
