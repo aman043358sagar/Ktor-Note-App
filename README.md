@@ -1,9 +1,9 @@
 # Ktor-Note-App
 This project contains 
 
-insert             |  delete
+insert             |  inserted PG Admin
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/aman043358sagar/Todo-App/master/Files/insert.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Todo-App/master/Files/delete.gif" width="246" height="438">
+<img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/insert.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/insert.png" height="438">
 
 
 update             |  search
