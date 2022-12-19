@@ -34,5 +34,5 @@ update             |  updated PG Admin
 
 
 search          
-:-------------------------:
-<img src="https://raw.githubusercontent.com/aman043358sagar/Todo-App/master/Files/search.gif" width="246" height="438"> 
+:-------------------------: |
+<img src="https://raw.githubusercontent.com/aman043358sagar/Todo-App/master/Files/search.gif" width="246" height="438"> |
