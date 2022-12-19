@@ -1,5 +1,5 @@
 # Ktor-Note-App
-This project contains notes app with backend using ktor and postgreSql 
+This project contains notes app with backend using ktor and postgreSql. The backend demonstrates basic operation like insert, delete and update using exposed library. 
 
   
 ## Built using (Frontend)
@@ -16,6 +16,7 @@ This project contains notes app with backend using ktor and postgreSql
 ## Built using (Backend)
 - [Kotlin 💙](https://kotlinlang.org/) - Official programming language for Android development.
 - [Ktor and Exposed](https://ktor.io/docs/interactive-website-add-persistence.html#queries) With exposed it is possible to access databases in two flavours: typesafe SQL wrapping DSL and lightweight Data Access Objects (DAO)
+- [PostgreSQL](https://www.postgresql.org/files/documentation/pdf/15/postgresql-15-A4.pdf) PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.
 
 
 insert             |  inserted PG Admin
@@ -27,9 +28,9 @@ delete             |  deleted PG Admin
 <img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/delete.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/deletePG.png" height="438">
 
 
-update             |  search
+update             |  updated PG Admin
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/update.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/update.png" width="246" height="438">
+<img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/update.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/update.png" height="438">
 
 
 search          
