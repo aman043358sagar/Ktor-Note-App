@@ -21,18 +21,18 @@ This project contains notes app with backend using ktor and postgreSql. The back
 
 insert             |  inserted PG Admin
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/insert.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/insert.png" height="438">
+<img src="https://gitlab.com/aman043358sagar/Ktor-Note-App/-/raw/master/Files/insert.gif" width="246" height="438">  |  <img src="https://gitlab.com/aman043358sagar/Ktor-Note-App/-/raw/master/Files/insert.png" height="438">
 
 delete             |  deleted PG Admin
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/delete.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/deletePG.png" height="438">
+<img src="https://gitlab.com/aman043358sagar/Ktor-Note-App/-/raw/master/Files/delete.gif" width="246" height="438">  |  <img src="https://gitlab.com/aman043358sagar/Ktor-Note-App/-/raw/master/Files/deletePG.png" height="438">
 
 
 update             |  updated PG Admin
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/update.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Ktor-Note-App/master/Files/update.png" height="438">
+<img src="https://gitlab.com/aman043358sagar/Ktor-Note-App/-/raw/master/Files/update.gif" width="246" height="438">  |  <img src="https://gitlab.com/aman043358sagar/Ktor-Note-App/-/raw/master/Files/update.png" height="438">
 
 
 search          
 :-------------------------: |
-<img src="https://raw.githubusercontent.com/aman043358sagar/Todo-App/master/Files/search.gif" width="246" height="438"> |
+<img src="https://gitlab.com/aman043358sagar/Ktor-Note-App/-/raw/master/Files/search.gif" width="246" height="438"> |
